@@ -1,0 +1,36 @@
+
+services:
+  server1:
+    image: ansible-ubuntu:latest
+    container_name: server1
+    ports:
+      - "2221:22"
+    restart: unless-stopped
+
+  server2:
+    image: ansible-ubuntu:latest
+    container_name: server2
+    ports:
+      - "2222:22"
+    restart: unless-stopped
+
+  server3:
+    image: ansible-ubuntu:latest
+    container_name: server3
+    ports:
+      - "2223:22"
+    restart: unless-stopped
+
+  server4:
+    image: ansible-ubuntu:latest
+    container_name: server4
+    ports:
+      - "2224:22"
+    restart: unless-stopped
+
+  server5:
+    image: ansible-ubuntu:latest
+    container_name: server5
+    ports:
+      - "2225:22"
+    restart: unless-stopped
